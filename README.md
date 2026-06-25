@@ -1,2 +1,0 @@
-# DanceReserve
-warファイルとDockerの方
