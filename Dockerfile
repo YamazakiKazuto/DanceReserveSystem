@@ -5,9 +5,6 @@ WORKDIR /usr/local/tomcat
 RUN rm -rf webapps/ROOT
 
 COPY Root.war webapps/DanceReserveSystem.war
-COPY backup.sql /usr/local/tomcat/backup.sql
-
-ENV CATALINA_OPTS="-Dorg.apache.catalina.core.StandardServer.PORT=-1"
 
 EXPOSE 8080
 
