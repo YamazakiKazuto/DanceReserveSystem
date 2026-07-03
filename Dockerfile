@@ -1,5 +1,7 @@
 FROM tomcat:10.1-jdk21-temurin
 
+ENV TZ=Asia/Tokyo
+
 WORKDIR /usr/local/tomcat
 
 RUN rm -rf webapps/ROOT
